@@ -1,7 +1,7 @@
 import os
 from google.cloud import bigquery
 
-os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\\Users\\Roam\\Downloads\\roam-data-warehouse-355508-4c99e2f51463.json"
+os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "C:\\Users\\Roam\\Desktop\\data-warehouse-355508-4c99e2f51463.json"
 
 def delete_tables_with_pattern(project_id, dataset_id, pattern):
     client = bigquery.Client(project=project_id)
