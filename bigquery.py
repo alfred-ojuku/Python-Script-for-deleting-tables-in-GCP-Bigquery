@@ -20,7 +20,7 @@ def delete_tables_with_pattern(project_id, dataset_id, pattern):
 
 if __name__ == "__main__":
     project_id = "roam-data-warehouse-355508"
-    dataset_id = "Freshdesk"
+    dataset_id = "Hubspot"
     pattern = "_airbyte_tmp_"  # Adjust this to your desired pattern
 
 delete_tables_with_pattern(project_id, dataset_id, pattern)
